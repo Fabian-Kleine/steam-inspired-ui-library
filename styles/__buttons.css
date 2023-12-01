@@ -1,0 +1,80 @@
+.btn {
+    border-radius: 2px;
+    padding: 7.5px 30px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: opacity 0.2s linear;
+    z-index: -1;
+    opacity: 1;
+    border-radius: 2px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: var(--primary);
+}
+
+.btn-primary::before {
+    background: var(--primary);
+    background: linear-gradient(to right, var(--primary), var(--primary-darker));
+}
+
+.btn-primary:hover::before,
+.btn-secondary:hover::before {
+    opacity: 0;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: var(--secondary);
+}
+
+.btn-secondary::before {
+    background: var(--secondary);
+    background: linear-gradient(to right, var(--secondary), var(--secondary-darker));
+}
+
+.btn-tertiary {
+    background-color: var(--tertiary);
+    color: var(--tertiary-text);
+}
+
+.btn-tertiary:hover {
+    color: #fff;
+}
+
+.btn-tertiary::before {
+    background: var(--tertiary);
+    background: var(--tertiary-gradient);
+    opacity: 0;
+}
+
+.btn-tertiary:hover::before {
+    opacity: 1;
+}
+
+.btn-sm {
+    padding: 0 15px;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.btn-lg {
+    padding: 7.5px 50px;
+    font-size: 25px;
+}

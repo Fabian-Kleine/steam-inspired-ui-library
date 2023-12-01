@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steam Inspired UI</title>
+    <link rel="stylesheet" href="./styles/utilities.css">
+    <link rel="stylesheet" href="steamui.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-toggler">
+                <label for="navToggle" class="navbar-toggler-icon"></label>
+            </div>
+            <div class="navbar-logo">
+                <a href="https://store.steampowered.com/?snr=1_5_9__global-header">
+                    <img src="https://store.akamai.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016" width="176" height="44">
+                </a>
+            </div>
+            <input type="checkbox" id="navToggle">
+            <ul class="navbar-nav">
+                <li class="navbar-item active">
+                    <a class="navbar-link" href="#">Shop</a>
+                    <div class="navbar-dropdown">
+                        <a href="#" class="dropdown-link">Test</a>
+                        <a href="#" class="dropdown-link">Test</a>
+                        <a href="#" class="dropdown-link">Test</a>
+                        <a href="#" class="dropdown-link">Test</a>
+                    </div>
+                </li>
+                <li class="navbar-item">
+                    <a class="navbar-link" href="#">Community</a>
+                    <div class="navbar-dropdown">
+                        <a href="#" class="dropdown-link">Test</a>
+                        <a href="#" class="dropdown-link">Test</a>
+                        <a href="#" class="dropdown-link">Test</a>
+                        <a href="#" class="dropdown-link">Test</a>
+                    </div>
+                </li>
+                <li class="navbar-item">
+                    <a class="navbar-link" href="#">Account</a>
+                    <div class="navbar-dropdown">
+                        <a href="#" class="dropdown-link">Test</a>
+                        <a href="#" class="dropdown-link">Test</a>
+                        <a href="#" class="dropdown-link">Test</a>
+                        <a href="#" class="dropdown-link">Test</a>
+                    </div>
+                </li>
+                <li class="navbar-item">
+                    <a class="navbar-link" href="#">Chat</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="navbar-link" href="#">Support</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <button class="btn btn-primary btn-lg">PLAY</button>
+        <button class="btn btn-secondary btn-lg">STOP</button>
+        <button class="btn btn-tertiary btn-lg">Shop</button>
+    </div>
+    <div class="container">
+        <button class="btn btn-primary">PLAY</button>
+        <button class="btn btn-secondary">STOP</button>
+        <button class="btn btn-tertiary">Shop</button>
+    </div>
+    <div class="container">
+        <button class="btn btn-primary btn-sm">Play</button>
+        <button class="btn btn-secondary btn-sm">Stop</button>
+        <button class="btn btn-tertiary btn-sm">Shop</button>
+    </div>
+</body>
+
+</html>

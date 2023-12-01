@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    background-color: var(--bg-main);
+}
+
+:root {
+    --primary: #6FD51E;
+    --primary-darker: #1BB24D;
+    --secondary: #46BBFD;
+    --secondary-darker: #245FCF;
+    --tertiary: rgba(103, 193, 245, 0.2);
+    --tertiary-gradient: linear-gradient(-60deg, #417a9b 5%, #67c1f5 95%);
+    --tertiary-text: #67c1f5;
+    --bg-main: #1b2838;
+    --bg-navbar: #171d25;
+    --navbar-active: #1a9fff;
+    --navbar-text: #dcdedf;
+    --navbar-text-dark: #171a21;
+}
