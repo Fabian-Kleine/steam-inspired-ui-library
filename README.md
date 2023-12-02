@@ -125,7 +125,7 @@ Button Styles can also be used with anchors:
 
 
 The Navbar features dropwdowns and a responsive design.
-Note that you can only use this component ones since the id `#navToggle` for the responsive navbar toggler can only be used once.
+Note that you can only use this component once since the id `#navToggle` for the responsive navbar toggler can only be used once.
 
 ### Menubar
 <img src="./screenshots/Menubar.PNG" >
