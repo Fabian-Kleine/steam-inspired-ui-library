@@ -20,10 +20,12 @@ You can either download the whole repository and add `steamui.css` and `/css/utl
 ```
 <head>
     <link rel="stylesheet" href="./css/utilities.css">
+    <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/__buttons.css">
     <link rel="stylesheet" href="./css/__navbar.css">
 </head>
 ```
+Note that `./css/main.css` needs to be imported beacaus it contains important variables for the other components.
 
 ## Components
 
