@@ -18,4 +18,7 @@ body {
     --navbar-active: #1a9fff;
     --navbar-text: #dcdedf;
     --navbar-text-dark: #171a21;
+    --menubar-gradient: linear-gradient(90deg, rgba(62, 103, 150, 0.919) 11.38%, rgba(58, 120, 177, 0.8) 25.23%, rgb(15, 33, 110) 100%);
+    --menubar-search-bg: #316282;
+    --menubar-dropdown-bg: linear-gradient(90deg, rgba(33, 162, 255, 0.1) 1.89%, rgba(50, 50, 51, 0) 50%), linear-gradient(180deg, #575860 11.6%, #3A4852 54.73%, #2C2D34 100%);
 }

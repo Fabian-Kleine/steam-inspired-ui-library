@@ -1,3 +1,9 @@
+.page-container {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
 .container {
     display: flex;
     justify-content: center;
@@ -7,3 +13,17 @@
 .container > * {
     margin: 5px;
 }
+
+@media only screen and (max-width: 910px) {
+    .page-container {
+        width: auto;
+    }
+}
+
+/* remove default styles */
+input[type=search]::-ms-clear { display: none; width : 0; height: 0; }
+input[type=search]::-ms-reveal { display: none; width : 0; height: 0; }
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }
