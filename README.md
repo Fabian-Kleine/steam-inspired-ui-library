@@ -120,7 +120,7 @@ Note that you can only use this component once since the id `#navToggle` for the
     ├── div.menubar-item
     │   └── a.menubar-link
     ├── div.menubar-spacer
-    └──  div.menubar-search
+    └── div.menubar-search
         ├── input:search
         └── a.btn-search
             └── svg 
