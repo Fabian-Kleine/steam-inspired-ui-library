@@ -49,22 +49,22 @@
     background: linear-gradient(to right, var(--secondary), var(--secondary-darker));
 }
 
-.btn-tertiary {
+.btn-tertiary, .btn-card {
     background-color: var(--tertiary);
     color: var(--tertiary-text);
 }
 
-.btn-tertiary:hover {
+.btn-tertiary:hover, .btn-card:hover {
     color: #fff;
 }
 
-.btn-tertiary::before {
+.btn-tertiary::before, .btn-card::before {
     background: var(--tertiary);
     background: var(--tertiary-gradient);
     opacity: 0;
 }
 
-.btn-tertiary:hover::before {
+.btn-tertiary:hover::before, .btn-card:hover::before {
     opacity: 1;
 }
 

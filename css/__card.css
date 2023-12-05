@@ -1,0 +1,160 @@
+.card {
+    background-color: var(--card-bg);
+    position: relative;
+    box-shadow: 0 0 5px #000000;
+}
+
+.card .card-body {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 0;
+    min-height: 23px;
+    position: absolute;
+    bottom: 0;
+    background: var(--card-bg);
+    background: var(--card-bg-gradient);
+    width: 100%;
+}
+
+.card.card-sm .card-body {
+    padding: 0;
+    justify-content: center;
+}
+
+.card .card-body .card-title {
+    color: #fff;
+    letter-spacing: 0.01em;
+    font-size: 16px;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.card .card-body .card-text {
+    color: #acdbf5;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.card .card-body .card-price {
+    position: relative;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card .card-body .card-price.card-price-end {
+    justify-content: end;
+}
+
+.card .card-body .card-price .card-price-discount {
+    background-color: var(--card-price-sale-bg);
+    color: var(--card-price-sale-text);
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 34px;
+    padding: 0 5px;
+    display: inline-block;
+}
+
+.card.card-sm .card-body .card-price .card-price-discount {
+    font-size: 12px;
+    line-height: inherit;
+}
+
+.card .card-body .card-price .card-discount-prices {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    background: var(--card-price-bg);
+    padding: 0 8px;
+}
+
+.card.card-sm .card-body .card-price .card-discount-prices {
+    flex-direction: row;
+    align-items: center;
+    padding: 0 5px;
+}
+
+.card .card-body .card-price .card-discount-prices .card-price-original {
+    color: var(--card-price-old-text);
+    font-size: 11px;
+    line-height: 12px;
+    width: fit-content;
+    position: relative;
+}
+
+.card .card-body .card-price .card-price-original::before {
+    content: "";
+    position: absolute;
+    top: 43%;
+    left: 0px;
+    right: 0px;
+    border-bottom: 1.5px solid var(--card-price-old-text);
+    transform: skewY(-8deg);
+    box-shadow: 0 0 2px black;
+}
+
+.card .card-body .card-price .card-discount-prices .card-price-new {
+    color: var(--card-price-sale-text);
+    line-height: 16px;
+    font-size: 15px;
+}
+
+.card.card-sm .card-body .card-price .card-discount-prices .card-price-new {
+    font-size: 11px;
+    line-height: 12px;
+    margin-left: 2px;
+}
+
+.card .card-body .card-price .card-pricetag {
+    background: var(--card-price-bg);
+    padding: 8px;
+    color: #fff;
+    line-height: 16px;
+    font-size: 15px;
+}
+
+.card.card-sm .card-body .card-price .card-pricetag {
+    padding: 0 6px;
+    font-size: 11px;
+}
+
+.btn-card {
+    background-color: var(--card-price-bg);
+    line-height: 16px;
+    font-size: 15px;
+    padding: 8px;
+}
+
+.card.card-sm .btn-card {
+    padding: 0 6px;
+    font-size: 11px;
+}
+
+.card.card-gradient {
+    transition: all .2s;
+}
+
+.card.card-gradient:hover {
+    transform: scale(1.05);
+}
+
+.card.card-gradient .card-body {
+    background: linear-gradient(rgba(0,0,0,0), var(--card-gradient-color) 100%);
+    height: 100%;
+    justify-content: end;
+    align-items: center;
+}
+
+.card.card-gradient:hover .card-body {
+    filter: brightness(1.25);
+}
+
+.card.card-gradient .card-body .card-title {
+    margin-left: 0;
+    margin-bottom: 16px;
+    font-size: 16px;
+    letter-spacing: 0.1ch;
+    text-shadow: 0 1px 3px rgb(0 0 0 / 50%);
+}

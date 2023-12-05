@@ -21,4 +21,10 @@ body {
     --menubar-gradient: linear-gradient(90deg, rgba(62, 103, 150, 0.919) 11.38%, rgba(58, 120, 177, 0.8) 25.23%, rgb(15, 33, 110) 100%);
     --menubar-search-bg: #316282;
     --menubar-dropdown-bg: linear-gradient(90deg, rgba(33, 162, 255, 0.1) 1.89%, rgba(50, 50, 51, 0) 50%), linear-gradient(180deg, #575860 11.6%, #3A4852 54.73%, #2C2D34 100%);
+    --card-bg: rgb(28,86,121);
+    --card-bg-gradient: linear-gradient(135deg, rgba(28,86,121,1) 0%, rgba(37,129,168,1) 50%);
+    --card-price-bg: #344654;
+    --card-price-sale-bg: #4C6B22;
+    --card-price-sale-text: #BEEE11;
+    --card-price-old-text: #738895;
 }

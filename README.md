@@ -126,3 +126,61 @@ Note that you can only use this component once since the id `#navToggle` for the
             └── svg 
 ```
 The Menubar is also responsive and features big dropdowns using the `menubar-dropdown-grid` class.
+
+### Cards
+<img src="./screenshots/Cards.PNG" >
+
+#### Card with Discount
+```
+└── div.card
+    ├── a
+    │   └── img.card-img
+    └── div.card-body
+        ├── h5.card-title
+        ├── p.card-text 
+        └── div.card-price
+            ├── div.card-price-discount
+            └── div.card-discount-prices   
+                ├── span.card-price-original 
+                └── span.card-price-new         
+```
+
+#### Card with Button
+```
+└── div.card
+    ├── a
+    │   └── img.card-img
+    └── div.card-body
+        ├── h5.card-title
+        ├── p.card-text 
+        └── div.card-price
+            └── a.btn.btn-card     
+```
+Note that you need to import `__buttons.css` to use this.
+
+#### Card with normal pricetag and smaller image
+```
+└── div.card
+    ├── a
+    │   └── img.card-img
+    └── div.card-body
+        └── div.card-price.card-price-end
+            └── span.card-pricetag         
+```
+The `.card-price-end` class moves the price to the right.
+Discounts also work on cards with smaller images like shown in the first example.
+
+#### Small Card
+Just add the `.card-sm` class to the parent div.
+
+#### Gradient Card
+```
+└── div.card.card-gradient style="--card-gradient-color: rgb(139,0,0)"
+    └── a
+        ├── img.card-img
+        └── div.card-body
+            └── h5.card-title
+```
+The `--card-gradient-color` variable set in style is the color for the gradient on the card body.
+
+    
