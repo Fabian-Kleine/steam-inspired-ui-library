@@ -25,7 +25,7 @@ You can either download the whole repository and add `steamui.css` and `/css/utl
     <link rel="stylesheet" href="./css/__navbar.css">
 </head>
 ```
-Note that `./css/main.css` needs to be imported beacaus it contains important variables for the other components.
+Note that `./css/main.css` needs to be imported because it contains important variables for the other components.
 
 ## Components
 See the components in action at https://projects.fabian-kleine.dev/steam-inspired-ui-library/
