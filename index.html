@@ -7,6 +7,7 @@
     <title>Steam Inspired UI</title>
     <link rel="stylesheet" href="./css/utilities.css">
     <link rel="stylesheet" href="steamui.css">
+    <script src="./js/__carousel.js" defer></script>
 </head>
 
 <body>
@@ -328,7 +329,217 @@
                 </a>
             </div>
         </div>
+        <h2>Carousel</h2>
+        <div id="carousel1" class="carousel">
+            <button onclick="carousel('carousel1', 'previous')" class="carousel-previous">Back</button>
+            <div class="carousel-slide carousel-container">
+                <div class="card">
+                    <a href="#">
+                        <img src="https://placehold.co/306x350" alt="Card Image" class="card-img">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Card with Discount</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, ullam!
+                        </p>
+                        <div class="card-price">
+                            <div class="card-price-discount">-60%</div>
+                            <div class="card-discount-prices">
+                                <span class="card-price-original">19,99€</span>
+                                <span class="card-price-new">7,99€</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <a href="#">
+                        <img src="https://placehold.co/306x350" alt="Card Image" class="card-img">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Card with Price</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, ullam!
+                        </p>
+                        <div class="card-price">
+                            <span class="card-pricetag">27,99€</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card mb-40">
+                        <a href="#">
+                            <img src="https://placehold.co/306x145" alt="Card Image" class="card-img">
+                        </a>
+                        <div class="card-body">
+                            <div class="card-price card-price-end">
+                                <div class="card-price-discount">-25%</div>
+                                <div class="card-discount-prices">
+                                    <span class="card-price-original">19,50€</span>
+                                    <span class="card-price-new">14,62€</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="#">
+                            <img src="https://placehold.co/306x145" alt="Card Image" class="card-img">
+                        </a>
+                        <div class="card-body">
+                            <div class="card-price card-price-end">
+                                <span class="card-pricetag">Free</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-slide carousel-container">
+                <div class="card">
+                    <a href="#">
+                        <img src="https://placehold.co/306x350" alt="Card Image" class="card-img">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Different Card with Discount</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, ullam!
+                        </p>
+                        <div class="card-price">
+                            <div class="card-price-discount">-40%</div>
+                            <div class="card-discount-prices">
+                                <span class="card-price-original">39,99€</span>
+                                <span class="card-price-new">23,99€</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <a href="#">
+                        <img src="https://placehold.co/306x350" alt="Card Image" class="card-img">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Card with Button</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, ullam!
+                        </p>
+                        <div class="card-price">
+                            <a href="#" class="btn btn-card">View in Shop</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card mb-40">
+                        <a href="#">
+                            <img src="https://placehold.co/306x145" alt="Card Image" class="card-img">
+                        </a>
+                        <div class="card-body">
+                            <div class="card-price card-price-end">
+                                <div class="card-price-discount">-75%</div>
+                                <div class="card-discount-prices">
+                                    <span class="card-price-original">16,79€</span>
+                                    <span class="card-price-new">4,19€</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="#">
+                            <img src="https://placehold.co/306x145" alt="Card Image" class="card-img">
+                        </a>
+                        <div class="card-body">
+                            <div class="card-price card-price-end">
+                                <div class="card-price-discount">-67%</div>
+                                <div class="card-discount-prices">
+                                    <span class="card-price-original">29,99€</span>
+                                    <span class="card-price-new">9,89€</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-slide carousel-container">
+                <div>
+                    <div class="card mb-40">
+                        <a href="#">
+                            <img src="https://placehold.co/306x145" alt="Card Image" class="card-img">
+                        </a>
+                        <div class="card-body">
+                            <div class="card-price card-price-end">
+                                <div class="card-price-discount">-25%</div>
+                                <div class="card-discount-prices">
+                                    <span class="card-price-original">19,50€</span>
+                                    <span class="card-price-new">14,62€</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="#">
+                            <img src="https://placehold.co/306x145" alt="Card Image" class="card-img">
+                        </a>
+                        <div class="card-body">
+                            <div class="card-price card-price-end">
+                                <span class="card-pricetag">Free</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card mb-40">
+                        <a href="#">
+                            <img src="https://placehold.co/306x145" alt="Card Image" class="card-img">
+                        </a>
+                        <div class="card-body">
+                            <div class="card-price card-price-end">
+                                <div class="card-price-discount">-25%</div>
+                                <div class="card-discount-prices">
+                                    <span class="card-price-original">19,50€</span>
+                                    <span class="card-price-new">14,62€</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="#">
+                            <img src="https://placehold.co/306x145" alt="Card Image" class="card-img">
+                        </a>
+                        <div class="card-body">
+                            <div class="card-price card-price-end">
+                                <span class="card-pricetag">Free</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card mb-40">
+                        <a href="#">
+                            <img src="https://placehold.co/306x145" alt="Card Image" class="card-img">
+                        </a>
+                        <div class="card-body">
+                            <div class="card-price card-price-end">
+                                <div class="card-price-discount">-25%</div>
+                                <div class="card-discount-prices">
+                                    <span class="card-price-original">19,50€</span>
+                                    <span class="card-price-new">14,62€</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="#">
+                            <img src="https://placehold.co/306x145" alt="Card Image" class="card-img">
+                        </a>
+                        <div class="card-body">
+                            <div class="card-price card-price-end">
+                                <span class="card-pricetag">Free</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button onclick="carousel('carousel1', 'next')" class="carousel-next">Next</button>
+        </div>
     </div>
+    <script>
+        window.addEventListener("load", () => {
+            carouselInit('carousel1')
+        })
+    </script>
 </body>
 
 </html>

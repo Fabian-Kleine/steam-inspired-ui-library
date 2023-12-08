@@ -27,6 +27,11 @@ You can either download the whole repository and add `steamui.css` and `/css/utl
 ```
 Note that `./css/main.css` needs to be imported because it contains important variables for the other components.
 
+If you want to use carousels also add
+```
+<script src="./js/__carousel.js" defer></script>
+```
+
 ## Components
 See the components in action at https://projects.fabian-kleine.dev/steam-inspired-ui-library/
 ### Buttons
@@ -183,4 +188,27 @@ Just add the `.card-sm` class to the parent div.
 ```
 The `--card-gradient-color` variable set in style is the color for the gradient on the card body.
 
-    
+### Carousel
+```
+└── div.carousel#<carouselID>
+    ├── button.carousel-previous onclick="carousel('<carouselID>', 'previous')"
+    ├── div.carousel-slide.carousel-container 
+    │   └── do what you want inside here
+    └── button.carousel-next onclick="carousel('<carouselID>', 'next')"
+```
+
+The carousel id can be replaced by anything.
+
+```
+<script>
+    window.addEventListener("load", () => {
+        carouselInit('<carouselID>')
+    })
+</script>
+```
+You need to Init the carousel on load.
+
+Note that you need to import the script for the carousel
+```
+<script src="./js/__carousel.js" defer></script>
+```
