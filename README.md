@@ -8,7 +8,7 @@ You can either download the whole repository and add `steamui.css` and `/css/utl
 
 ### Import All
 
-```
+```html
 <head>
     <link rel="stylesheet" href="./css/utilities.css">
     <link rel="stylesheet" href="steamui.css">
@@ -17,7 +17,7 @@ You can either download the whole repository and add `steamui.css` and `/css/utl
 
 ### Import individually
 
-```
+```html
 <head>
     <link rel="stylesheet" href="./css/utilities.css">
     <link rel="stylesheet" href="./css/main.css">
@@ -28,7 +28,7 @@ You can either download the whole repository and add `steamui.css` and `/css/utl
 Note that `./css/main.css` needs to be imported because it contains important variables for the other components.
 
 If you want to use carousels also add
-```
+```html
 <script src="./js/__carousel.js" defer></script>
 ```
 
@@ -44,7 +44,7 @@ Always use the `.btn` class!
 
 Primary Secondary and Tertiary Button as in the Image
 
-```
+```html
 <button class="btn btn-primary">PLAY</button>
 <button class="btn btn-secondary">STOP</button>
 <button class="btn btn-tertiary">Shop</button>
@@ -52,7 +52,7 @@ Primary Secondary and Tertiary Button as in the Image
 
 Large Buttons
 
-```
+```html
 <button class="btn btn-primary btn-lg">PLAY</button>
 <button class="btn btn-secondary btn-lg">STOP</button>
 <button class="btn btn-tertiary btn-lg">Shop</button>
@@ -60,7 +60,7 @@ Large Buttons
 
 Small Buttons
 
-```
+```html
 <button class="btn btn-primary btn-sm">PLAY</button>
 <button class="btn btn-secondary btn-sm">STOP</button>
 <button class="btn btn-tertiary btn-sm">Shop</button>
@@ -68,7 +68,7 @@ Small Buttons
 
 Button Styles can also be used with anchors:
 
-```
+```html
 <a href="#" class="btn btn-primary">PLAY</a>
 <a href="#" class="btn btn-secondary">STOP</a>
 <a href="#" class="btn btn-tertiary">Shop</a>
@@ -199,7 +199,7 @@ The `--card-gradient-color` variable set in style is the color for the gradient 
 
 The carousel id can be replaced by anything.
 
-```
+```html
 <script>
     window.addEventListener("load", () => {
         carouselInit('<carouselID>')
@@ -209,6 +209,6 @@ The carousel id can be replaced by anything.
 You need to Init the carousel on load.
 
 Note that you need to import the script for the carousel
-```
+```html
 <script src="./js/__carousel.js" defer></script>
 ```
