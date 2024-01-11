@@ -224,6 +224,8 @@ Note that you need to import the script for the carousel
 ```
 
 ### Banner
+<img src="./screenshots/Banners.PNG" >
+
 ```
 └── div.banner
     └── a
