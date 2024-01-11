@@ -6,6 +6,16 @@ This CSS library is inspired by the styles used on the steam website and the ste
 
 You can either download the whole repository and add `steamui.css` and `/css/utlities.css` to your HTML or download only the components you want to use and import them manually.
 
+All components except from the navbar should only be used inside a div with the class `page-container`.
+```html
+<div class="page-container">
+    <div class="menubar">
+        <!-- insert menubar here -->
+    </div>
+    <!-- insert more content here -->
+</div>
+```
+
 ### Import All
 
 ```html
@@ -211,4 +221,20 @@ You need to Init the carousel on load.
 Note that you need to import the script for the carousel
 ```html
 <script src="./js/__carousel.js" defer></script>
+```
+
+### Banner
+```
+└── div.banner
+    └── a
+        └── img
+```
+
+#### Multiple Banners
+```
+└── div.banner.banner-grid
+    ├── a
+    │   └── img
+    └── a
+        └── img
 ```

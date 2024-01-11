@@ -1,0 +1,28 @@
+.banner {
+    overflow: hidden;
+    width: 100%;
+    padding: 20px 2%;
+}
+
+.banner a{
+    display: block;
+    transition: box-shadow .1s ease-in-out;
+}
+
+.banner a:hover{
+    box-shadow: 0 0 12px var(--banner-shadow);
+}
+
+.banner.banner-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 950px) {
+    .banner a img {
+        width: 100%;
+    }
+    .banner.banner-grid a img {
+        width: 99%;
+    }
+}
