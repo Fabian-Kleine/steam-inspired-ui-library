@@ -113,6 +113,7 @@
     outline: none;
     padding: 0px 6px;
     max-width: 210px;
+    margin-right: 5px;
 }
 
 .menubar-search:hover {
@@ -133,6 +134,7 @@
     line-height: 26px;
     border: none;
     background-color: transparent;
+    display: block;
 }
 
 .menubar-search input[type=search]::placeholder {
@@ -146,7 +148,7 @@
 
 .menubar-search .btn-search {
     position: absolute;
-    right: 5px;
+    right: 30px;
     top: 7.5px;
     background-color: #A1D2EF;
     border-radius: 2px;
@@ -180,7 +182,7 @@
 
     .menubar-search {
         max-width: none;
-        width: 97%;
+        width: 95%;
         margin: 10px;
     }
 
@@ -190,6 +192,6 @@
 
     .menubar-search .btn-search {
         top: 181px;
-        right: 10px;
+        right: 5%;
     }
 }
