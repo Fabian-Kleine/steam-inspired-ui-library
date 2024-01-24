@@ -116,7 +116,8 @@ Button Styles can also be used with anchors:
 
 
 The Navbar features dropwdowns and a responsive design.
-Note that you can only use this component once since the id `#navToggle` for the responsive navbar toggler can only be used once.
+> [!IMPORTANT]
+> Note that you can only use this component once since the id `#navToggle` for the responsive navbar toggler can only be used once.
 
 ### Menubar
 <img src="./screenshots/Menubar.PNG" >
@@ -173,7 +174,8 @@ The Menubar is also responsive and features big dropdowns using the `menubar-dro
         └── div.card-price
             └── a.btn.btn-card     
 ```
-Note that you need to import `__buttons.css` to use this.
+> [!IMPORTANT]
+> Note that you need to import `__buttons.css` to use this.
 
 #### Card with normal pricetag and smaller image
 ```
@@ -220,7 +222,8 @@ The carousel id can be replaced by anything.
 ```
 You need to Init the carousel on load.
 
-Note that you need to import the script for the carousel
+> [!IMPORTANT]
+> Note that you need to import the script for the carousel
 ```html
 <script src="./js/__carousel.js" defer></script>
 ```
