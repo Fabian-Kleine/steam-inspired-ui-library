@@ -4,7 +4,7 @@ This CSS library is inspired by the styles used on the steam website and the ste
 
 ## Usage
 
-You can either download the whole repository and add `steamui.css` and `/css/utlities.css` to your HTML or download only the components you want to use and import them manually.
+You can either download the whole repository and add `steamui.css` and `./css/utilities.css` to your HTML or download only the components you want to use and import them manually.
 
 ### Import All
 
@@ -41,6 +41,8 @@ All components except from the navbar should only be used inside a div with the 
     <!-- insert more content here -->
 </div>
 ```
+> [!NOTE]
+> the `page-container` class is contained inside `./css/utilities.css`
 
 ## Components
 See the components in action at https://projects.fabian-kleine.dev/steam-inspired-ui-library/
