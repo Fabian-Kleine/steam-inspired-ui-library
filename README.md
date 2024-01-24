@@ -102,6 +102,8 @@ Button Styles can also be used with anchors:
         │       └── img
         ├── input:checkbox#navToggle
         └── ul.navbar-nav
+            ├── div.navbar-toggler
+            │   └── label.navbar-toggle-icon for="navToggle"
             ├── li.navbar-item.active
             │   ├── a.navbar-link
             │   └── div.navbar-dropdown
