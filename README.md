@@ -51,7 +51,8 @@ See the components in action at https://projects.fabian-kleine.dev/steam-inspire
 
 <img src="./screenshots/Buttons.PNG" >
 
-Always use the `.btn` class!
+> [!WARNING]
+> Always use the `.btn` class!
 
 #### Varaints
 
