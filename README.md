@@ -25,7 +25,8 @@ You can either download the whole repository and add `steamui.css` and `./css/ut
     <link rel="stylesheet" href="./css/__navbar.css">
 </head>
 ```
-Note that `./css/main.css` needs to be imported because it contains important variables for the other components.
+> [!IMPORTANT]
+> Note that `./css/main.css` and `./css/utilities.css` needs to be imported because it contains important variables for the other components.
 
 If you want to use carousels also add
 ```html
@@ -116,7 +117,7 @@ Button Styles can also be used with anchors:
 
 
 The Navbar features dropwdowns and a responsive design.
-> [!IMPORTANT]
+> [!WARNING]
 > Note that you can only use this component once since the id `#navToggle` for the responsive navbar toggler can only be used once.
 
 ### Menubar
