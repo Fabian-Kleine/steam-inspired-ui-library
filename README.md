@@ -43,7 +43,7 @@ All components except from the navbar should only be used inside a div with the 
 </div>
 ```
 > [!NOTE]
-> the `page-container` class is contained inside `./css/utilities.css`
+> the `page-container` class is defined inside `./css/utilities.css`
 
 ## Components
 See the components in action at https://projects.fabian-kleine.dev/steam-inspired-ui-library/
