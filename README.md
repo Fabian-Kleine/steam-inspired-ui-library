@@ -12,6 +12,17 @@ You can either download the whole repository and add `steamui.css` and `./css/ut
 <head>
     <link rel="stylesheet" href="./css/utilities.css">
     <link rel="stylesheet" href="steamui.css">
+    <script src="./js/__carousel.js" defer></script>
+</head>
+```
+
+### Import All using CDN
+
+```html
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Fabian-Kleine/steam-inspired-ui-library/css/utilities.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Fabian-Kleine/steam-inspired-ui-library/steamui.css">
+    <script src="https://cdn.jsdelivr.net/gh/Fabian-Kleine/steam-inspired-ui-library/js/__carousel.js" defer></script>
 </head>
 ```
 
